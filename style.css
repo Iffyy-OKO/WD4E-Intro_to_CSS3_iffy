@@ -1,1 +1,84 @@
+/* Step 2: Single stylesheet for all three pages */
 
+/* Step 3: Style the body tag - font-family and font-size */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333333;
+}
+
+/* Step 4: Style the header tag - background-color */
+header {
+    background-color: #1a365d;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Step 5: Style the nav tag - background-color */
+nav {
+    background-color: #2b6cb0;
+    padding: 10px;
+}
+
+/* Step 6: Style the main tag - background-color and font-size */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Step 7: Style the footer tag - background-color */
+footer {
+    background-color: #1a365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Step 8: Style the li tag - display and width */
+li {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+/* Step 9: Style the h1 tag - text-align, font-family, and color */
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Step 10: Style the p tag - line-height */
+p {
+    line-height: 1.6;
+    color: #2d3748;
+}
+
+/* Additional accessible styling for navigation links to ensure high WAVE accessibility scores */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+    color: #e2e8f0;
+}
